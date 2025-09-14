@@ -1,0 +1,177 @@
+article_types:
+  artykul_naukowy:
+    system_prompt: Jesteś badaczem naukowym piszącym artykuły do czasopism naukowych.
+      Tworzysz metodyczne, dobrze udokumentowane prace badawcze.
+    user_template: 'Napisz artykuł naukowy na temat: "{topic}"
+
+
+      Długość: {length}
+
+      Język: {language}
+
+
+      Źródła do wykorzystania:
+
+      {sources}
+
+
+      Dodatkowe instrukcje: {custom_instructions}
+
+
+      Artykuł powinien zawierać:
+
+      - Abstrakt
+
+      - Wprowadzenie z przeglądem literatury
+
+      - Metodologię (jeśli applicable)
+
+      - Wyniki i dyskusję
+
+      - Wnioski i bibliografia'
+  artykul_wikipedii:
+    system_prompt: Jesteś redaktorem Wikipedii. Tworzysz neutralne, encyklopedyczne
+      artykuły oparte na wiarygodnych źródłach, zgodnie ze standardami Wikipedii.
+    user_template: 'Napisz artykuł w stylu Wikipedii na temat: "{topic}"
+
+
+      Długość: {length}
+
+      Język: {language}
+
+
+      Źródła do wykorzystania:
+
+      {sources}
+
+
+      Dodatkowe instrukcje: {custom_instructions}
+
+
+      Artykuł powinien zawierać:
+
+      - Neutralny punkt widzenia
+
+      - Weryfikowalne informacje
+
+      - Odpowiednie kategorie i linki
+
+      - Bibliografia z numerowanymi przypisami'
+  blog_post:
+    system_prompt: Jesteś doświadczonym blogerem specjalizującym się w tworzeniu angażujących
+      treści SEO-friendly. Piszesz posty, które są zarówno informacyjne, jak i interesujące.
+    user_template: 'Napisz post na blog na temat: "{topic}"
+
+
+      Długość: {length}
+
+      Język: {language}
+
+
+      Źródła do wykorzystania:
+
+      {sources}
+
+
+      Dodatkowe instrukcje: {custom_instructions}
+
+
+      Post powinien zawierać:
+
+      - Przyciągający tytuł
+
+      - Wprowadzenie z hook''iem
+
+      - Nagłówki i listy punktowane
+
+      - Call-to-action na końcu
+
+      - SEO-friendly struktura'
+  esej:
+    system_prompt: Jesteś ekspertem w pisaniu esejów akademickich. Twoje zadanie to
+      napisanie przemyślanego eseju na podany temat, wykorzystując dostarczone źródła.
+    user_template: 'Napisz esej na temat: "{topic}"
+
+
+      Długość: {length}
+
+      Język: {language}
+
+
+      Źródła do wykorzystania:
+
+      {sources}
+
+
+      Dodatkowe instrukcje: {custom_instructions}
+
+
+      Esej powinien zawierać:
+
+      - Wprowadzenie z jasną tezą
+
+      - Rozwinięcie argumentów z przykładami
+
+      - Podsumowanie i wnioski
+
+      - Odpowiednie cytowania źródeł'
+  news_summary:
+    system_prompt: Jesteś dziennikarzem specjalizującym się w tworzeniu streszczeń
+      aktualnych wydarzeń. Przedstawiasz fakty w sposób obiektywny i przystępny.
+    user_template: 'Napisz streszczenie aktualnych wydarzeń na temat: "{topic}"
+
+
+      Długość: {length}
+
+      Język: {language}
+
+
+      Źródła do wykorzystania:
+
+      {sources}
+
+
+      Dodatkowe instrukcje: {custom_instructions}
+
+
+      Streszczenie powinno zawierać:
+
+      - Najważniejsze fakty na początku
+
+      - Kontekst i tło wydarzeń
+
+      - Różne perspektywy jeśli applicable
+
+      - Aktualne dane i statystyki
+
+      - Obiektywny ton bez opinii'
+  poradnik:
+    system_prompt: Jesteś ekspertem w tworzeniu praktycznych poradników. Piszesz jasne,
+      wykonalne instrukcje krok po kroku.
+    user_template: 'Napisz poradnik na temat: "{topic}"
+
+
+      Długość: {length}
+
+      Język: {language}
+
+
+      Źródła do wykorzystania:
+
+      {sources}
+
+
+      Dodatkowe instrukcje: {custom_instructions}
+
+
+      Poradnik powinien zawierać:
+
+      - Jasne wprowadzenie do tematu
+
+      - Listę potrzebnych narzędzi/materiałów
+
+      - Instrukcje krok po kroku
+
+      - Porady i ostrzeżenia
+
+      - Podsumowanie i dalsze kroki'

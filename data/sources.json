@@ -1,0 +1,44 @@
+{
+  "news": [
+    {
+      "name": "TVN24",
+      "base_url": "https://tvn24.pl",
+      "search_url": "https://tvn24.pl/szukaj?q={query}",
+      "credibility": 0.8
+    },
+    {
+      "name": "Gazeta.pl",
+      "base_url": "https://gazeta.pl",
+      "search_url": "https://gazeta.pl/0,0.html?szukaj={query}",
+      "credibility": 0.7
+    },
+    {
+      "name": "Onet",
+      "base_url": "https://onet.pl",
+      "search_url": "https://onet.pl/szukaj/{query}",
+      "credibility": 0.6
+    }
+  ],
+  "academic": [
+    {
+      "name": "Google Scholar",
+      "base_url": "https://scholar.google.com",
+      "search_url": "https://scholar.google.com/scholar?q={query}",
+      "credibility": 0.9
+    },
+    {
+      "name": "ResearchGate",
+      "base_url": "https://researchgate.net",
+      "search_url": "https://researchgate.net/search?q={query}",
+      "credibility": 0.8
+    }
+  ],
+  "general": [
+    {
+      "name": "Wikipedia PL",
+      "base_url": "https://pl.wikipedia.org",
+      "search_url": "https://pl.wikipedia.org/w/index.php?search={query}",
+      "credibility": 0.9
+    }
+  ]
+}
